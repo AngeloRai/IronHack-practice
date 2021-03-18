@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>This is a test</title>
+<head>
+    <script>
+        let board = [
+    [{ x: 0, y: 0 }, { x: 0, y: 1 }, { x: 0, y: 2 }],
+    [{ x: 1, y: 0 }, { x: 1, y: 1 }, { x: 1, y: 2 }],
+    [{ x: 2, y: 0 }, { x: 2, y: 1 }, { x: 2, y: 2 }]
+    ]
+    
+    const player = {
+    x: 1,
+    y: 1
+    }
+    
+    function moveHorizontally(thePlayer, command) {
+    if (command === 'l' || command === 'L') {
+        player.y--;
+    } else if (command === 'r' || command === 'R') {
+        player.y++;
+    } else {
+        console.log("Please type 'l' to move left or 'r' to move right.");
+    }
+    console.log(`Player has position x: ${thePlayer.x} y: ${thePlayer.y}`);
+    
+    if (thePlayer.y < 0 || thePlayer.y > 2) {
+        console.log("Player is out of the board, that's not allowed. Please place him back on the board.");
+    }
+    }
+    
+    moveHorizontally(player, 'l')
+    console.log(player);
+    </script>
+</head>
+
+
+<body>
+    <p>Now with a live server!!! </p>
+   
+</body>
+
+
+</html>
