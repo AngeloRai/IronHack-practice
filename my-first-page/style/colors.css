@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+.nav-bar{
+    background-color: rgb(25, 33, 41);
+}
+.nav-bar a{
+    color: white; 
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+.header{
+    background: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+h2{
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+

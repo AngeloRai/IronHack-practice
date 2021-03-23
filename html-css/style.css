@@ -1,0 +1,40 @@
+body {
+    background-color: #00D1AE;
+}
+
+h1 {
+    color: pink;
+    text-decoration: underline;
+}
+
+h4 {
+    color: darkgreen;
+    background-color: darksalmon;
+}
+
+p {
+    font-size: 18px;
+    width: 400px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+span {
+    color: yellow;
+}
+
+.yellow {
+    color: yellow
+}
+
+.red-group {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.blue-group {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}

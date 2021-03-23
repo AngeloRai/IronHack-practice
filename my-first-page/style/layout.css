@@ -1,0 +1,69 @@
+
+#general-information {
+    text-align: center;
+}
+
+
+#general-information p {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+#general-information a {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    
+}
+#schedule{
+    align-items                   : center;
+}
+.service-box img {
+  font-size: 1.7em;
+  text-align: center;
+  width: 125px;
+  
+}
+
+.service-box{
+    text-align: center;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+#team .member-name {
+    font-size: 1.5em;
+}
+
+#team img{
+    width: 250px;
+    height: 180px;
+}
+
+.footer {
+    text-align: center;
+    font-style: normal;
+    font-size:1.9em;
+}
+
+.footer a{
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+    font-size:  0.8em;
+}
+
+.footer ul {
+    list-style: none;
+}
+

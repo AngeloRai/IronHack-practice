@@ -1,0 +1,16 @@
+body {
+  background: rgba(176, 193, 202, 0.4);
+}
+
+p {
+  font-size: 18px;
+  color: rgb(70, 130, 180);
+}
+h1 {
+  color: rgb(36, 39, 37);
+  background-color: seagreen;
+}
+
+h2 {
+  color: forestgreen;
+}
