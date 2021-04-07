@@ -1,69 +1,100 @@
-
-#general-information {
-    text-align: center;
+.nav-bar {
+  text-align: center;
 }
 
+.nav-bar li {
+  list-style-type: none;
+}
+
+.header aside {
+  font-size: 2rem;
+  padding-left: 3rem;
+}
+
+#general-information {
+  text-align: center;
+}
 
 #general-information p {
-    font-size: 2em;
-    font-weight: 100;
-    text-align: center;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
 }
 
 #general-information a {
-    background-color: rgb(67, 163, 230);
-    color: white;
-    font-family: 'Roboto Condensed';
-    font-size: 2em;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    
+  background-color: rgb(38, 84, 117);
+  color: white;
+  font-family: "Roboto Condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
 }
-#schedule{
-    align-items                   : center;
+#schedule {
+  align-items: center;
 }
 .service-box img {
   font-size: 1.7em;
   text-align: center;
   width: 125px;
-  
 }
 
-.service-box{
-    text-align: center;
+.service-box {
+  text-align: center;
 }
 
 #team .section-text {
-    font-size: 1.9em;
-    text-align: center;
+  font-size: 1.9em;
+  /* text-align: center; */
 }
 
-#team .member-name {
-    font-size: 1.5em;
+.member-name {
+  font-size: 1.5em;
 }
 
-#team img{
-    width: 250px;
-    height: 180px;
+#team article {
+  display: block;
+  text-align: center;
+}
+
+#team p{
+  text-align: center;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
+table {
+ margin: 0 auto;
+ box-shadow: 10px 5px 5px rgb(177, 153, 153); 
+ padding: 3px;  
+ border-spacing: 0; 
+ font-size: 1.5rem;
+}
+
+td{
+  font-size: 1.5rem;
+  border-bottom: solid 1px black;
+  text-align: center;
 }
 
 .footer {
-    text-align: center;
-    font-style: normal;
-    font-size:1.9em;
+  text-align: center;
+  font-style: normal;
+  font-size: 1.9em;
 }
 
-.footer a{
-    color: rgb(67, 163, 230);
-    text-decoration: none;
+.footer a {
+  color: rgb(130, 182, 219);
+  text-decoration: none;
 }
 
 .address {
-    font-style: normal;
-    font-size:  0.8em;
+  font-style: normal;
+  font-size: 0.8em;
 }
 
 .footer ul {
-    list-style: none;
+  list-style: none;
 }
-

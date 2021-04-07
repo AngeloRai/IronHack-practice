@@ -1,0 +1,13 @@
+.red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  h1 {
+    font-size: 1px;
+    transition: font-size 0.5s ease-in-out;
+  }
+  

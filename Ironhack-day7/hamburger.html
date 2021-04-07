@@ -1,0 +1,102 @@
+<!-- HyperText Markup Language -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <!-- Importando nosso arquivo CSS para estilizar esse documento HTML -->
+    <link href="./assets/styles/style.css" type="text/css" rel="stylesheet" />
+    <title>Pedro Resch Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-header-container">
+        <a class="logo" href="index.html">
+          <img src="assets/images/logo.png" alt="Site logo" />
+        </a>
+
+        <i
+          id="hamburger-button"
+          class="fa fa-bars hamburger-button"
+          aria-hidden="true" aria-label=”Open the menu”
+        ></i>
+      </div>
+
+      <nav class="nav-menu nav-menu-lg">
+        <ul>
+          <li><a href="/work">WORK</a></li>
+          <li><a href="/about">ABOUT</a></li>
+          <li class="middle"><a href="/gallery">GALLERY</a></li>
+          <li><a href="/writing">WRITING</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-menu nav-menu-mobile">
+        <ul>
+          <li><a href="/work">WORK</a></li>
+          <li><a href="/about">ABOUT</a></li>
+          <li class="middle"><a href="/gallery">GALLERY</a></li>
+          <li><a href="/writing">WRITING</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1 class="main-title">So much more than pixels.</h1>
+
+        <p class="main-paragraph">
+          Hello, my name is Pedro and I'm passionate about making things that
+          make an impact.
+        </p>
+
+        <div>
+          <a class="btn" href="/work">SEE MY WORK</a>
+          <a class="btn" href="/contact">HIRE ME</a>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Work</th>
+            <th>Location</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Wall Graffiti</td>
+            <td>London</td>
+            <td>06/2020</td>
+          </tr>
+          <tr>
+            <td>Sculpture</td>
+            <td>Rio</td>
+            <td>05/2020</td>
+          </tr>
+          <tr>
+            <td>Performance</td>
+            <td>Cambridge</td>
+            <td>03/2020</td>
+          </tr>
+          <tr>
+            <td>Painting</td>
+            <td>São Paulo</td>
+            <td>01/2021</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>
